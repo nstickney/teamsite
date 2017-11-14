@@ -1,5 +1,5 @@
-# Reacting
-Learning React.js by doing tiny projects. This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+# TeamSite
+A base page to use for taunting your opponents in network defense games. They can play Tic-Tac-Toe on your website while they get hacked. This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg)](https://github.com/RichardLitt/standard-readme)
 

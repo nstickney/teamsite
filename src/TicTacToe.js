@@ -141,10 +141,11 @@ class Game extends Component {
 
         const moves = history.map((step, move) => {
             var squeezestyle = {
-                margin: "2px"
+                margin: "2px",
+                padding: "2px"
             }
             return (
-                <button className="btn btn-secondary btn-sm m-1 p-1" style={squeezestyle} onClick={() => this.jumpTo(move + 1)}>
+                <button className="btn btn-secondary btn-sm" style={squeezestyle} onClick={() => this.jumpTo(move + 1)}>
                     {move + 1}
                 </button>
             );

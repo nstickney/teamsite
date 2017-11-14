@@ -2,7 +2,7 @@
   "name": "reacting",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cs.baylor.edu/~stickneyn",
+  "homepage": "",
   "dependencies": {
     "create-react-class": "^15.6.2",
     "react": "^16.0.0",
