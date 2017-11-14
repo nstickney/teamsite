@@ -47,21 +47,11 @@ class IPAddress extends Component {
     }
 }
 
-class TorCheckFrame extends Component {
-    render() {
-        return (
-            <iframe src="https://check.torproject.org/" title="Check If Tor" width="240" height="300">
-                <p>Your browser does not support iframes.</p>
-            </iframe>
-        )
-    }
-}
-
 class IPAddressBox extends Component {
     render() {
         return(
             <div className={this.props.p.classNames} style={this.props.p.styles}>
-                <h6 className="card-header bg-orange text-cosmic">Public IP</h6>
+                <h6 className="card-header bg-orange text-cosmic">Visitor Public IP</h6>
                 <IPAddress />
                 {/* <TorCheckFrame />*/}
             </div>
