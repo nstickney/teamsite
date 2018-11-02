@@ -5,10 +5,10 @@
   "homepage": "",
   "dependencies": {
     "create-react-class": "^15.6.2",
-    "react": "^16.0.0",
+    "react": "^16.6.0",
     "react-bootstrap": "^0.31.5",
-    "react-dom": "^16.0.0",
-    "react-scripts": "^1.1.4",
+    "react-dom": "^16.6.0",
+    "react-scripts": "^1.1.5",
     "react-twitter-widgets": "^1.7.1"
   },
   "scripts": {
