@@ -1,21 +1,31 @@
 {
-  "name": "reacting",
+  "name": "teamsite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "",
   "dependencies": {
-    "create-react-class": "^15.6.2",
     "react": "^16.8.6",
-    "react-bootstrap": "^0.31.5",
     "react-dom": "^16.8.6",
-    "react-scripts": "^3.0.1",
-    "react-twitter-widgets": "^1.7.1",
-    "typescript": "^3.5.1"
+    "react-scripts": "3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
